@@ -46,6 +46,14 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Azure.AI.Extensions.OpenAI": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Azure.AI.Projects": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
             "Azure.Identity": {
               "target": "Package",
               "version": "[1.21.0, )"

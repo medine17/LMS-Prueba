@@ -129,3 +129,10 @@
 /workspaces/LMS-Prueba/LMS.Api/obj/Debug/net10.0/LMS.Api.pdb
 /workspaces/LMS-Prueba/LMS.Api/obj/Debug/net10.0/LMS.Api.genruntimeconfig.cache
 /workspaces/LMS-Prueba/LMS.Api/obj/Debug/net10.0/ref/LMS.Api.dll
+/workspaces/LMS-Prueba/LMS.Api/bin/Debug/net10.0/Azure.AI.Extensions.OpenAI.dll
+/workspaces/LMS-Prueba/LMS.Api/bin/Debug/net10.0/Azure.AI.Projects.dll
+/workspaces/LMS-Prueba/LMS.Api/bin/Debug/net10.0/Azure.AI.Projects.Agents.dll
+/workspaces/LMS-Prueba/LMS.Api/bin/Debug/net10.0/Azure.Storage.Blobs.dll
+/workspaces/LMS-Prueba/LMS.Api/bin/Debug/net10.0/Azure.Storage.Common.dll
+/workspaces/LMS-Prueba/LMS.Api/bin/Debug/net10.0/OpenAI.dll
+/workspaces/LMS-Prueba/LMS.Api/bin/Debug/net10.0/System.IO.Hashing.dll

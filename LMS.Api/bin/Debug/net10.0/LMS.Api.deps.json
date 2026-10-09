@@ -8,11 +8,51 @@
     ".NETCoreApp,Version=v10.0": {
       "LMS.Api/1.0.0": {
         "dependencies": {
+          "Azure.AI.Extensions.OpenAI": "2.0.0",
+          "Azure.AI.Projects": "2.0.1",
           "Azure.Identity": "1.21.0",
           "Microsoft.Identity.Web": "4.16.0"
         },
         "runtime": {
           "LMS.Api.dll": {}
+        }
+      },
+      "Azure.AI.Extensions.OpenAI/2.0.0": {
+        "dependencies": {
+          "Azure.Core": "1.53.0",
+          "OpenAI": "2.9.1"
+        },
+        "runtime": {
+          "lib/net10.0/Azure.AI.Extensions.OpenAI.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.26.20107"
+          }
+        }
+      },
+      "Azure.AI.Projects/2.0.1": {
+        "dependencies": {
+          "Azure.AI.Extensions.OpenAI": "2.0.0",
+          "Azure.AI.Projects.Agents": "2.0.0",
+          "Azure.Core": "1.53.0",
+          "Azure.Storage.Blobs": "12.26.0"
+        },
+        "runtime": {
+          "lib/net10.0/Azure.AI.Projects.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.126.22303"
+          }
+        }
+      },
+      "Azure.AI.Projects.Agents/2.0.0": {
+        "dependencies": {
+          "Azure.Core": "1.53.0",
+          "OpenAI": "2.9.1"
+        },
+        "runtime": {
+          "lib/net10.0/Azure.AI.Projects.Agents.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.26.20107"
+          }
         }
       },
       "Azure.Core/1.53.0": {
@@ -60,6 +100,30 @@
           "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll": {
             "assemblyVersion": "4.6.0.0",
             "fileVersion": "4.600.24.11403"
+          }
+        }
+      },
+      "Azure.Storage.Blobs/12.26.0": {
+        "dependencies": {
+          "Azure.Core": "1.53.0",
+          "Azure.Storage.Common": "12.25.0"
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Storage.Blobs.dll": {
+            "assemblyVersion": "12.26.0.0",
+            "fileVersion": "12.2600.25.51304"
+          }
+        }
+      },
+      "Azure.Storage.Common/12.25.0": {
+        "dependencies": {
+          "Azure.Core": "1.53.0",
+          "System.IO.Hashing": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Storage.Common.dll": {
+            "assemblyVersion": "12.25.0.0",
+            "fileVersion": "12.2500.25.51304"
           }
         }
       },
@@ -308,6 +372,17 @@
           }
         }
       },
+      "OpenAI/2.9.1": {
+        "dependencies": {
+          "System.ClientModel": "1.10.0"
+        },
+        "runtime": {
+          "lib/net10.0/OpenAI.dll": {
+            "assemblyVersion": "2.9.1.0",
+            "fileVersion": "2.9.1.0"
+          }
+        }
+      },
       "System.ClientModel/1.10.0": {
         "dependencies": {
           "System.Memory.Data": "10.0.3"
@@ -328,6 +403,14 @@
           "lib/net10.0/System.IdentityModel.Tokens.Jwt.dll": {
             "assemblyVersion": "8.23.0.0",
             "fileVersion": "8.23.0.26257"
+          }
+        }
+      },
+      "System.IO.Hashing/8.0.0": {
+        "runtime": {
+          "lib/net8.0/System.IO.Hashing.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
           }
         }
       },
@@ -363,6 +446,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Azure.AI.Extensions.OpenAI/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z1yUaGcNMPEm6jrV0YIa6ASIOkG3OLSDvX+PJkUkN1uv1b0pPIkUElLLppNouauxXjo/C+pW2rNNKdi784B2Pw==",
+      "path": "azure.ai.extensions.openai/2.0.0",
+      "hashPath": "azure.ai.extensions.openai.2.0.0.nupkg.sha512"
+    },
+    "Azure.AI.Projects/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kyNrCOgh3+bFKyPweD9sT2uQkUfjM6G9i/kbic/+eETauCABM4yRF4WuKnOCLAr0a9RaCQ8gveOGlpTT0DmWyw==",
+      "path": "azure.ai.projects/2.0.1",
+      "hashPath": "azure.ai.projects.2.0.1.nupkg.sha512"
+    },
+    "Azure.AI.Projects.Agents/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Jol7z6/IKelnimA/zA1tk5vY2HxwVMwPjp77SGcPGOnJ6gZkz7l5Q2URzXrKfL4rG14D2qK+n1uD8eVySHZ5gQ==",
+      "path": "azure.ai.projects.agents/2.0.0",
+      "hashPath": "azure.ai.projects.agents.2.0.0.nupkg.sha512"
+    },
     "Azure.Core/1.53.0": {
       "type": "package",
       "serviceable": true,
@@ -390,6 +494,20 @@
       "sha512": "sha512-vwPceoznuT6glvirZcXlaCQrh1uzTSxpZUi2hRFNumHiS3hVyqIXI5fgWiLtlBzwqPJMTr0flUoSvGKjXXQlfg==",
       "path": "azure.security.keyvault.secrets/4.6.0",
       "hashPath": "azure.security.keyvault.secrets.4.6.0.nupkg.sha512"
+    },
+    "Azure.Storage.Blobs/12.26.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EBRSHmI0eNzdufcIS1Rf7Ez9M8V1Jl7pMV4UWDERDMCv513KtAVsgz2ez2FQP9Qnwg7uEQrP+Uc7vBtumlr7sQ==",
+      "path": "azure.storage.blobs/12.26.0",
+      "hashPath": "azure.storage.blobs.12.26.0.nupkg.sha512"
+    },
+    "Azure.Storage.Common/12.25.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MHGWp4aLHRo0BdLj25U2qYdYK//Zz21k4bs3SVyNQEmJbBl3qZ8GuOmTSXJ+Zad93HnFXfvD8kyMr0gjA8Ftpw==",
+      "path": "azure.storage.common/12.25.0",
+      "hashPath": "azure.storage.common.12.25.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/10.0.0": {
       "type": "package",
@@ -538,6 +656,13 @@
       "path": "microsoft.identitymodel.validators/8.23.0",
       "hashPath": "microsoft.identitymodel.validators.8.23.0.nupkg.sha512"
     },
+    "OpenAI/2.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KPTFYEt1EhrPeIZXGBE+DlutFEpMo/RspqSdUJ3p6pMqsw3NeGJcIja/K0He1j9KyRq8ASfzBgp2biWbNUGnFA==",
+      "path": "openai/2.9.1",
+      "hashPath": "openai.2.9.1.nupkg.sha512"
+    },
     "System.ClientModel/1.10.0": {
       "type": "package",
       "serviceable": true,
@@ -551,6 +676,13 @@
       "sha512": "sha512-mUuRjk0KKvF3dlF7CKcnjHn/4TFaWRDGjDRtn1rACitoIflv96apfLD9KPDisyCEuc/0ierocnHCvIXBvCL4Sw==",
       "path": "system.identitymodel.tokens.jwt/8.23.0",
       "hashPath": "system.identitymodel.tokens.jwt.8.23.0.nupkg.sha512"
+    },
+    "System.IO.Hashing/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ne1843evDugl0md7Fjzy6QjJrzsjh46ZKbhf8GwBXb5f/gw97J4bxMs0NQKifDuThh/f0bZ0e62NPl1jzTuRqA==",
+      "path": "system.io.hashing/8.0.0",
+      "hashPath": "system.io.hashing.8.0.0.nupkg.sha512"
     },
     "System.Memory.Data/10.0.3": {
       "type": "package",
