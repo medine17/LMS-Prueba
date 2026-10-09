@@ -1,10 +1,75 @@
-﻿@page
-@model IndexModel
+﻿
+@page
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Mi LMS";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    body {
+        background: #f3f5f9;
+        font-family: Arial, sans-serif;
+    }
+
+    .lms {
+        max-width: 1000px;
+        margin: 35px auto;
+        padding: 25px;
+    }
+
+    .panel {
+        background: white;
+        padding: 25px;
+        border-radius: 14px;
+        margin-top: 20px;
+        box-shadow: 0 3px 12px #00000010;
+    }
+
+    .curso {
+        display: inline-block;
+        width: 40%;
+        margin: 1%;
+        padding: 20px;
+        background: #eef2ff;
+        border-radius: 10px;
+    }
+
+    .boton {
+        background: #2457d6;
+        color: white;
+        padding: 12px 18px;
+        border: 0;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+</style>
+
+<div class="lms">
+    <h1>🎓 Mi LMS</h1>
+    <p>Plataforma de aprendizaje y capacitación</p>
+
+    <div class="panel">
+        <h2>Mis cursos</h2>
+
+        <div class="curso">
+            <h3>📘 Introducción a ISO</h3>
+            <p>Conoce los conceptos básicos y sus aplicaciones.</p>
+            <button class="boton" onclick="alert('Curso de prueba')">
+                Entrar al curso
+            </button>
+        </div>
+
+        <div class="curso">
+            <h3>💻 Capacitación general</h3>
+            <p>Consulta tus materiales de aprendizaje.</p>
+            <button class="boton" onclick="alert('Curso de prueba')">
+                Entrar al curso
+            </button>
+        </div>
+    </div>
+
+    <div class="panel">
+        <h2>🤖 Asistente de aprendizaje</h2>
+        <p>En la siguiente etapa conectaremos aquí tu agente de Microsoft Foundry.</p>
+        <p id="estado">Estado: interfaz de prueba.</p>
+    </div>
 </div>
